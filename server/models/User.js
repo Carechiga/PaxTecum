@@ -3,10 +3,17 @@ const { Schema, model } = require('mongoose');
 const bcrypt = require('bcrypt');
 
 const userSchema = new Schema({
-    name: {
+    firstName: {
         type: String,
-        required: true,
         trim: true,
+    },
+    middleName: {
+      type: String,
+      trim: true,
+    },
+    lastName: {
+      type: String,
+      trim: true,
     },
     email: {
         type: String,
@@ -20,23 +27,64 @@ const userSchema = new Schema({
       },
      address: {
         type: String,
-        required: true,
      },
      city: {
         type: String,
-        required: true,
+     },
+     state: {
+        type: String,
      },
      zipcode: {
         type: Number,
-        required: true,
      },
      phone: {
         type: String,
         required: true,
         minLength: 10,
         maxLength: 12,
-     }
-
+     },
+     ethnicity:{
+      type: String,
+     },
+     maritalStatus: {
+      type: String,
+     },
+     gender:{
+      type: String,
+     },
+     birthDate:{
+      type: String,
+     },
+     language: {
+      type: String,
+     },
+     primaryInsuranceCo:{
+      type: String,
+     },
+     primaryInsuranceID:{
+      type: Number,
+     },
+     primaryGroupNo: {
+      type: Number,
+     },
+     dentalInsuranceCo:{
+      type: String,
+     },
+     dentalInsuranceID:{
+      type: Number,
+     },
+     dentalGroupNo: {
+      type: Number,
+     },
+     visionInsuranceCo:{
+      type: String,
+     },
+     visionInsuranceID:{
+      type: Number,
+     },
+     visionGroupNo: {
+      type: Number,
+     },
 });
 
 // set up pre-save middleware to create password

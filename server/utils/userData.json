@@ -1,0 +1,52 @@
+[
+    {
+        "firstName": "Patient",
+        "lastName": "1",
+        "email": "donuts@test.com",
+        "password": "password1234",
+        "address": "1234 Birch St",
+        "city": "Brea",
+        "zipcode": "92821",
+        "phone": "714-582-0555"
+    },
+    {
+        "firstName": "Patient",
+        "lastName": "2",
+        "email": "diner@test.com",
+        "password": "password1234",
+        "address": "529 S Harbor Blvd",
+        "city": "Fullerton",
+        "zipcode": "90621",
+        "phone": "562-203-0112"
+    },
+    {
+        "firstName": "Patient",
+        "lastName": "3",
+        "email": "cafe@test.com",
+        "password": "password1234",
+        "address": "5432 Sycamore Drive",
+        "city": "Orange",
+        "zipcode": "92867",
+        "phone": "714-345-6789"
+    },
+    {
+        "firstName": "Patient",
+        "lastName": "4",
+        "email": "pizza@test.com",
+        "password": "password1234",
+        "address": "9101 Pine Lane",
+        "city": "Huntington Beach",
+        "zipcode": "92647",
+        "phone": "562-555-2468"
+    },
+    {
+        "firstName": "Patient",
+        "lastName": "5",
+        "email": "fresh@test.com",
+        "password": "password1234",
+        "address": "5678 Oak Street",
+        "city": "Irvine",
+        "zipcode": "92618",
+        "phone": "949-555-9753"
+    }
+]
